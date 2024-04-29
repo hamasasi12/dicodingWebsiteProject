@@ -1,36 +1,120 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Document</title>
 </head>
 <body>
-  <!-- start header -->
+  <!-- header start -->
   <header>
-    <nav class="navbar-container">
+    <div class="header-top">
+    </div>
+   <div class="header-container">
+    <div class="header-logo">
+      <img 
+      src="asset/img/man.png" 
+      alt="kalimantan"
+      class="img-header" 
+      loading="eager">
+      <h2>My Portofolio</h2>   
+    </div>
+    <div class="header-list">
       <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a>asdd</li>
-        <li><a href="#"></a>asdd</li>
+        <li><a href="#test">Home</a></li>
+        <li><a href="#test">About</a></li>
+        <li><a href="#test">Project</a></li>
+        <li><a href="#test">Aktifites</a></li>
+        <li><a href="#test">Contact</a></li>
       </ul>
-    </nav>
+    </div>
+   </div>
   </header>
-  <!-- end header -->
+  <!-- header end -->
 
   <!-- main start -->
   <main>
-    <article>
-      <h1>testing</h1>
-    </article>
-    <article></article>
+    <div class="main-container">
+      <!-- article 1 -->
+      <article id="article-one">
+        <div class="card-container">
+          <h2>Hello👋</h2>
+          <h1>I'm a <span class="auto-type"></span></h1>
+        </div>
+        <div class="img-programmer">
+          <img src="./asset/img/programmer.svg" alt="programmer" class="svg-programmer">
+        </div>
+      </article>
+
+      <!-- article 2 -->
+      <article id="article-two">
+        <div class="card-two">
+          <div class="img-myself">
+            <img src="./asset/img/Untitled-1.jpg" alt="diri sendiri" id="diri-sendiri">
+          </div>
+          <div class="about-container">
+            <h1>About Me</h1>
+            <p>
+              <span id="hamas">Hamas Akif Sanie</span> adalah nama saya, merupakan Mahasiswa Teknik Informatika yang kuliah di Politeknik Negeri Banjarmasin 
+              yang berdomisili di Kalimantan Selatan, namun pada saat ini sedang mengikuti Pertukaran Mahasiswa Merdeka di 
+              kampus Politeknik Negeri Batam,Saat ini saya berusia 21 tahun dan peminatan saya adalah menjadi seorang FullStack 
+              Enggineer. 
+
+              Saya memiliki logika dan analisis masalah yang baik, mampu berkomunikasi dengan baik antara client dan 
+              menganalisis permasalahan mereka dan memberikan solusi berupa website yang sudah disesuaikan dengan kebutuhan dari 
+              client, saya saat ini bisa menggunakan bahasa pemprograman seperti HTML,CSS,Javascript,Python,C, dan saat ini saya 
+              sedang mempelajari Framework React.JS.
+            </p>        
+          </div>
+        </div>
+      </article>
+      <!-- article 2 -->
+      <article class="article-three">
+        <div>
+          <h2>--- TechStack ---</h2>
+        </div>
+        <div class="tech-container">
+          <div class="tech-1">
+            <img src="./asset/img/kalimantan.png" alt="HTML" class="tech-img">
+            <h2>HTML</h2>
+            <p>html asasdas asds asds asds asd asd asdd</p>
+          </div>
+
+          <div class="tech-2">
+            <img src="./asset/img/kalimantan.png" alt="CSS" class="tech-img">
+            <h2>CSS</h2>
+            <p>css asdasd asd asdasdasd</p>
+          </div>
+
+          <div class="tech-3">
+            <img src="./asset/img/kalimantan.png" alt="Javascript" class="tech-img">
+            <h2>JS</h2>
+            <p>asdasdasdasdas</p>
+          </div>
+          <div class="tech-4">
+            <img src="./asset/img/kalimantan.png" alt="php" class="tech-img">
+            <h2>php</h2>
+            <p>asdasdasdasdsd asd asd asd asdPhp/p>
+          </div>
+        </div>
+
+      </article>
+    </div>
   </main>
   <!-- main end -->
 
   <!-- footer start -->
-  <footer></footer>
+  <footer>
+    <div class="footer-container">
+
+    </div>
+  </footer>
   <!-- footer end -->
-  <script src="js/script.js"></script>
+  <script src="js/script.js" defer></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </body>
 </html>

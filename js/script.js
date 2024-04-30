@@ -3,5 +3,4 @@ let typed = new Typed(".auto-type",{
     typeSpeed : 150,
     backspeed : 150,
     loop : true,
-
 })
